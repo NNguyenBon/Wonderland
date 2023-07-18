@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+body{
+    margin: 0 10% 0 10%;
+    background-color: rgba(2, 11, 86);
+}
+#header{
+    margin: 0 10% 0 10%;
+    background: url("back_ground.png") no-repeat;
+    background-size: cover;
+    height: 1000px;
+    border: 3px solid #AE8625;
+}
+.menu{
+    background-color: rgba(2, 11, 86, 0.9);
+    height: 90px;
+    border: 2px solid #AE8625;
+    z-index: -1;
+}
+ul{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+li{
+    display: inline-block;
+    font-size: 110%;
+    font-weight: bold;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s linear;
+}
+.menu a:hover{
+    color: #ffdd00;
+}
+.li{
+    padding: 3% 0;
+}
+#bow_tie{
+    width: 90px;
+}
+.title{
+    width: 90%;
+    margin: 6% auto;
+    background-color: rgba(2, 11, 86, 0.7);
+    padding: 1%;
+    border: 2px solid #AE8625;
+    border-radius: 10px;
+}
+#Name{
+    text-align: center;
+    font-size: 300%;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(#AE8625, #BDA058, #EACE0C, #D2AC47, #F9F295, #E0AA3E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 20px #F9F295;
+}
+#main{
+    margin: 0 10% 0 10%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#ATG{
+    margin-top: 3%;
+    width: 65%;
+    background: 
+    linear-gradient(#fff 0 0) padding-box, /*this is your grey background*/
+    linear-gradient(#AE8625, #BDA058, #EACE0C, #D2AC47, #F9F295, #E0AA3E) border-box;
+    color: #313149;
+    padding: 10px;
+    border: 5px solid transparent;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}
+.ATGpic{
+    width: 40%;
+}
+.ATGtext{
+    width: 55%;
+    text-align: center;
+    font-size: 200%;
+    padding-top: 10%;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(#AE8625, #BDA058, #EACE0C, #D2AC47, #F9F295, #E0AA3E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#LN{
+    width: 30%;
+    background-color: #BDA058;
+    height: 850px;
+}
+#LNh2{
+    text-align: center;
+    margin: 13% 0;
+    color: white;
+    font-size: 200%;
+}
+#tea_cup{
+    width: 300px;
+    padding-left: 5%;
+}
+#contact{
+    margin: 0 10%;
+    height: 300px;
+}
+#cake{
+    display: block;
+    width: 300px;
+    position: relative;
+    border-radius: 150px;
+    top: -300px;
+    z-index: -1;
+}
+#jOC{
+    background: 
+    linear-gradient(rgba(2, 11, 86) 0 0) padding-box, /*this is your grey background*/
+    linear-gradient(to right, #AE8625, #BDA058, #EACE0C, #D2AC47, #F9F295, #E0AA3E) border-box;
+    color: #313149;
+    padding: 10px;
+    border-top: 5px solid transparent;
+    width: 70%;
+    float: right;
+    margin: 0 auto;
+}
+.JOC{
+    font-size: 250%;
+    font-weight: bold;
+    margin: 3% auto;
+    text-align: center;
+    background: -webkit-linear-gradient(#AE8625, #BDA058, #EACE0C, #D2AC47, #F9F295, #E0AA3E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#jOC div{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+i{
+    font-size: 300%;
+    color: rgb(255, 255, 255);
+    padding: 0 5%;
+}
+#footer{
+    background-color: #BDA058;
+    width: 80%;
+    margin: 0 auto;
+}
+#footer p{
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+}
+i:hover, li:hover{
+    cursor: pointer;
+}
